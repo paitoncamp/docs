@@ -9,7 +9,7 @@
         "$pull": {
           "type": "$href",
           "options": {
-            "url": "https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/todo-app/input.json"
+            "url": "https://raw.githubusercontent.com/paitoncamp/docs/develop/examples/jasonette/apps/todo-app/input.json"
           }
         },
         "do": {
@@ -83,7 +83,7 @@
                             "width": "50",
                             "color": "#ffffff"
                           },
-                          "url": "{{ done ? 'https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/todo-app/done.png' : 'https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/todo-app/pending.png'}}"
+                          "url": "{{ done ? 'https://raw.githubusercontent.com/paitoncamp/docs/develop/examples/jasonette/apps/todo-app/done.png' : 'https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/todo-app/pending.png'}}"
                         }
                       ]
                     }
@@ -99,7 +99,7 @@
                       "components": [
                         {
                           "type": "image",
-                          "url": "https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/todo-app/swipedown.png",
+                          "url": "https://raw.githubusercontent.com/paitoncamp/docs/develop/examples/jasonette/apps/todo-app/swipedown.png",
                           "style": {
                             "padding": "30",
                             "width": "100",
